@@ -1,0 +1,3 @@
+This repo is very helpful for any one want to learn (PHP,OOP,DB)
+the most thing that the all of them is explain simply in the files
+it has some small projects for learn how it works...
