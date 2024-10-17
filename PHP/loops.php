@@ -21,6 +21,6 @@ for ($i = 0; $i < count($names); $i++)  //function count()to get the length of a
 // while loop
 $x = 0;
 while ($x <= 10) {
-    // echo $x .' ';
-    // $x++;
+    echo $x .' ';
+    $x++;
 }

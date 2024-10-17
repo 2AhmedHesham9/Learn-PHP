@@ -2,7 +2,9 @@
 // echo
         //  echo 'Ahmed ','Hesham ','Atsh';// you can use (,) between outputs
         //  echo 'Ahmed '.'Hesham '.'Atsh';// you can use (.) between outputs as concatinate
-
+$age=20;
+echo $age++;
+echo ++$age;
         // echo does not return boolean value if(echo('')){}
                 // if(echo 'Ahmed ')
                 // {
@@ -13,7 +15,7 @@
 // print
         // print 'Ahmed ','Hesham ','Atsh';// you can NOT use (,) between outputs
         // print 'Ahmed '.'Hesham '.'Atsh';// you can  use (.) between outputs
-                if(print 'Ahmed ') //returns boolean value
+                // if(print 'Ahmed ') //returns boolean value
                 // {
                 //     print ('Hesham' . ' ATSH');
                 //     print ('Hesham' , ' Atsh'); // does not work
@@ -53,7 +55,7 @@
                 
 
         //         echo'<pre>';
-        //         var_dump($pepole); 
+                var_dump($pepole); 
         //         echo '</pre>';
 
 

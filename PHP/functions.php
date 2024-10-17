@@ -2,19 +2,20 @@
 
 //function full name
 
-function name($fname,$age)
+function name($fname,$age,$lname)
 {
-    echo "Ahmed hesham";
+    // echo "Ahmed hesham";
     echo '<br>';
-    return $fname .' '. $age;
+    return $fname .' '. $age. ' '. $lname;
 }
 
 
+name("Ahmed ",20,"H");
 //how to invoke the functions (call)
 
 // name();
 // echo name();
-// echo name("Ahmed ",20);
+
 
 
 //some functions
@@ -61,6 +62,6 @@ function name($fname,$age)
                             }
                             // return $sum;
                         }
-                        echo add("1,2,3,4,5",5,5,4,"H",1);
+                        // echo add("1,2,3,4,5",5,5,4,"H",1);
 
 ?>

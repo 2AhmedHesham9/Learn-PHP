@@ -4,8 +4,10 @@
 //addition
 $n=0;
 $n++;
+++$n;
 $n*=5;
 // echo $n;
+echo '<br>';
 
 //subtraction
 $n1=100;
@@ -23,10 +25,10 @@ $percent=number_format($percent,5);
 
 //reminder
 
-$n5=20;
+$n5=10;
 $n6=3;
 $rem=$n5 % $n6;
-// echo $rem;
+// echo '<  br>'.$rem;
 
 
 //power

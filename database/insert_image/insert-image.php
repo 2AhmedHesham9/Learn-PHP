@@ -20,8 +20,8 @@ if (isset($_POST['upload'])) {
 	//^ Get all the submitted data from the form
 	$filename = $_FILES["uploadfile"]["name"];
 	$tempname = $_FILES["uploadfile"]["tmp_name"];
-	echo $filename . ' <br> ' . $tempname;
 	$folder =  'images/' . $filename;
+	echo $filename . ' <br> ' . $tempname;
 
 
 	$sql = "INSERT INTO image (filename) VALUES ('$filename')";

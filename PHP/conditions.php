@@ -1,16 +1,16 @@
 <?php
  
-    //if statements
+    // if statements
 
-    // $bool =true;
-    // if($bool)
-    // {
-    //     // echo "true";
-    // }
-    // else
-    // {
-    //     // echo "false";
-    // }
+    $bool =true;
+    if($bool)
+    {
+        echo "true";
+    }
+    else
+    {
+        echo "false";
+    }
     
     
     

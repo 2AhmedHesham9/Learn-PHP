@@ -4,7 +4,8 @@
     // $names=['a','b','c'];
     $names =array('a','b','c');
     $names[]='d';  //adding 
-   
+    $names[]='d';  //adding 
+   print_r($names);
 
                             // Override array //
                             //Assosative array //
